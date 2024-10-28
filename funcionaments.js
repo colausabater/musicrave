@@ -14,7 +14,7 @@ let colBoto = 0;
 
 function setup() {
   let myCanvas1 =  createCanvas(400, 400);
-  myCanvas1.parent ('p')
+  myCanvas1.parent ('pxx')
   angleMode(DEGREES); //Per facilitar l'�s dels arcs, no utilitzo radiants
 }
 

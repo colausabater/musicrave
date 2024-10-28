@@ -76,11 +76,13 @@ margin: 3%;
   box-align: center;
 }
 
-#p {
- /* padding: 0% 35% 0%;*/
- width: 100%;
- height: auto;
- 
+#pxx {
+  display: flex;            
+  justify-content: center;     
+  align-items: center;        
+  width: 100%;                 
+  margin: 0 auto;              
+  padding: 20px 0;   
 }
 
 
@@ -130,19 +132,18 @@ ul {
 }
 
 
-.Secció2{
-  align-content:center;
+.noticia1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 footer{
   background-color: #0066ff;
   margin: 0%;
 }
-/*
-.section-title h2{
-  margin: ;
-   
-}*/
 
 .nav-underline{
   margin-left: 6%; margin-right:10%; justify-content: flex-end;
@@ -156,3 +157,4 @@ footer{
   font-family: 'MiFuente';
   src: url('fonts/Horizon-updated/horizon.otf') format('truetype');
 }
+
